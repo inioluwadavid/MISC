@@ -2189,6 +2189,10 @@ a.article:hover {
   .col-25 {
     margin-bottom: 20px;
   }
+  .col-75 > .container img {
+    align-self: center;
+    margin: 0 13%;
+  }
 }
 .col-75 > .container {
   background-color: #f2f2f2;

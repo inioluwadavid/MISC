@@ -2182,7 +2182,14 @@ a.article:hover {
 .col-75 {
   padding: 0 16px;
 }
-
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
 .col-75 > .container {
   background-color: #f2f2f2;
   padding: 10px 20px 15px 20px;
